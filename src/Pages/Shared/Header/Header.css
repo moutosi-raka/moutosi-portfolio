@@ -1,0 +1,21 @@
+.menu-style li{
+    margin-left: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(21, 69, 69);
+    padding: 7px 15px;
+}
+
+.menu-style li:hover{
+    background-color: rgba(95, 95, 95,.2);
+    border-radius: 7px;
+}
+.menu-style li:active{
+    background-color: rgb(21, 69, 69);
+    color: white;
+    border-radius: 7px;
+}
+
+.ring-primary{
+    --tw-ring-color: rgb(21, 69, 69)!important;
+} 
