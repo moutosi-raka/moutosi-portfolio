@@ -1,3 +1,9 @@
 .text-deep-green{
   color: rgb(21, 69, 69);
 }
+.bg-deep-green{
+  background: rgb(21, 69, 69);
+}
+.bg-light-green{
+  background: rgb(145, 184, 184);
+}
