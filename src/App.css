@@ -5,5 +5,8 @@
   background: rgb(21, 69, 69);
 }
 .bg-light-green{
-  background: rgb(145, 184, 184);
+  background: rgb(192 233 233 / 53%);
+}
+.line{
+  border-bottom: 3px solid rgb(21, 69, 69);;
 }
