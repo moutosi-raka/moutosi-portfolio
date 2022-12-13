@@ -10,3 +10,8 @@
 .line{
   border-bottom: 3px solid rgb(21, 69, 69);;
 }
+
+.card-hover:hover{
+  background-color: white;
+  color: rgb(21, 69, 69);
+}
