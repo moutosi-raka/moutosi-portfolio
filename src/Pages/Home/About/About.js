@@ -5,7 +5,7 @@ import profile2 from '../../../assests/people2.png'
 const About = () => {
     return (
         <div>
-            <h1 className='text-3xl text-deep-green text-center font-bold mt-14 pb-4'>About Me</h1>
+            <h1 className='text-3xl text-deep-green text-center font-bold mt-14 pb-4 text-hover'>About Me</h1>
             <div className='w-60 mx-auto line mb-14'></div>
             <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 my-12 gap-8'>
                 <div className='card p-5 bg-light-green'>

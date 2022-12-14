@@ -1,6 +1,6 @@
 import React from 'react';
 import profile1 from '../../../assests/profile1.webp'
-import profile2 from '../../../assests/unnamed.webp'
+
 
 const Banner = () => {
     return (
