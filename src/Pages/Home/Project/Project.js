@@ -7,7 +7,6 @@ import book from '../../../assests/project/Book_bazar.PNG'
 import beauty from '../../../assests/project/beauty-zone.PNG'
 import learning from '../../../assests/project/Learning.PNG'
 import './project.css'
-import { Link } from 'react-router-dom';
 
 
 const Project = () => {
@@ -17,6 +16,7 @@ const Project = () => {
             name: 'Book Bazar',
             img: book,
             details: 'It is a platform on which anyone can buy and sell old and new books.',
+            route: '/book-bazar',
             link: 'https://book-bazar-76341.firebaseapp.com/'
         },
         {
@@ -24,6 +24,7 @@ const Project = () => {
             name: 'Beauty Zone',
             img:  beauty,
             details: 'A services website where clients can add their valuable',
+            route: '/beauty',
             link: 'https://beauty-parlour-cd243.firebaseapp.com/'
         },
         {
@@ -31,6 +32,7 @@ const Project = () => {
             name: 'Learning',
             img:    learning,
             details: 'Website about online courses for sell and purchase',
+            route: '/learning',
             link: 'https://learning-a98c7.firebaseapp.com/'
         }
     ]

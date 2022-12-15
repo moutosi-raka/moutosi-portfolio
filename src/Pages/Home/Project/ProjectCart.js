@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const ProjectCart = ({project}) => {
-    const {name, img, link, details} = project;
+    const {name, img, route, details} = project;
     return (
         <div
          className="card shadow-md h-[420px] bg-deep-green text-white ">
@@ -15,8 +16,9 @@ const ProjectCart = ({project}) => {
             </div>
             <div className='flex justify-center mt-2'>
                 <button>
-                <Link className='btn btn-outline btn-warning' >See Details</Link>
-                </button>   
+                <Link to={route}  className='btn btn-outline btn-warning' >See Details</Link>
+                </button>  
+          
             </div>
         </div>
     </div>
