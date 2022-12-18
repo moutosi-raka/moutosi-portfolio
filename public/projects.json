@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Book Bazar",
+        "details": "It is a platform on which anyone can buy and sell old and new books.",
+        "img": [],
+        "coverImg": "https://i.ibb.co/j4t5RFJ/Book-bazar.png",
+        "feature": ["It is a platform on which anyone can buy and sell old and new books.', 'Buyers can pay with cards.', 'Administrators have control over sellers, buyers, and products', 'Administrators can verify seller and delete report item"],
+        "technology": ["Tailwind Css", "DaisyUI", "React", "Express", "Node js", "MongoDB" ,"Firebase"],
+        "route": "/book-bazar",
+        "link": "https://book-bazar-76341.firebaseapp.com/"
+    },
+    {
+        "id": 2,
+        "name": "Beauty Zone",
+        "details": "A services website where clients can add their valuable",
+        "img": [],
+        "coverImg": "https://i.ibb.co/g9vbWd2/beauty-zone.png",
+        "feature": ["It is a platform on which anyone can buy and sell old and new books.', 'Buyers can pay with cards.', 'Administrators have control over sellers, buyers, and products', 'Administrators can verify seller and delete report item"],
+        "link": "https://beauty-parlour-cd243.firebaseapp.com/",
+        "route": "/beauty",
+        "technology": ["Tailwind Css", "DaisyUI", "React", "Express", "Node js", "MongoDB" ,"Firebase"]
+    },
+    {
+        "id": 3,
+        "name": "Learning",
+        "img": [],
+        "coverImg": "https://i.ibb.co/SvndZ0h/Learning.png",
+        "feature": ["It is a platform on which anyone can buy and sell old and new books.', 'Buyers can pay with cards.', 'Administrators have control over sellers, buyers, and products', 'Administrators can verify seller and delete report item"],
+        "details": "Website about online courses for sell and purchase",
+        "technology": ["Tailwind Css", "DaisyUI", "React", "Express", "Node js", "MongoDB" ,"Firebase"],
+        "route": "/learning",
+        "link": "https://learning-a98c7.firebaseapp.com/"
+    }
+]
